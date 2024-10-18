@@ -1,4 +1,5 @@
 <?php
+/*
  $wawa = 2;
  $precio = 2500;
     $descuento = $precio - ($precio* 20/100); 
@@ -21,5 +22,24 @@ else{
 }else{
     print(" Ingrese un genero valido");
 }
-#$edad > 60 && $genero = "m" ? print() : print();
+$edad > 60 && $genero = "m" ? print() : print();
+*/
+$w = 2;
+$www = 3;
+$ww = "+";
+switch($ww){
+case "+" : print($w + $www);
+break;
+case "-" : print($w - $www);
+break;
+case "/" : if($w == 0 || $www == 0){
+print("No se puede dividir en 0");
+}else{
+    print($w / $www);
+} ;
+break;
+case "*" : print($w * $www);
+break;
+default : print ("no existe ese operador lul");
+}
 ?>
