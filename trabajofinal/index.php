@@ -26,34 +26,35 @@
       </div>
     </header>
     <main>
-        <div id="container">
+        <div id="container" >
         <div class="container text-center">
   <div class="row align-items-start" style="color:aliceblue;">
-    <div class="col-sm">
-      One of three columns
+    <div class="col-sm" >
+      <p class="" style="margin-top: 2%;">¿Donde se encuentra?</p>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolore libero blanditiis aut delectus eveniet nostrum ratione in quae, quod quis consectetur consequuntur mollitia asperiores quo eius culpa cum? Aliquam, ex?</p>
     </div>
     <div class="col-sm">
+      <p>One of three columns</p>
+    </div>
+    
+  </div>
+</div>       
+      </div>
+   
+      <div class="container text-center">
+      <hr>
+  <div class="row align-items-start">
+    <div class="col-sm-4" style="color: aliceblue;">
       One of three columns
     </div>
-    <div class="col-sm">
+    <div class="col-sm-4" style="color: aliceblue;">
+      One of three columns
+    </div>
+    <div class="col-sm-4" style="color: aliceblue;">
       One of three columns
     </div>
   </div>
 </div>
-           <div class="col-sm">
-           <div style="color:aliceblue; text-align: center;">
-            <?php
-  include 'BD/Conexion.php';
-  
-  include 'BD/ejercicio.php';
-
-?>
-        </div>
-
-        </div>
-      </div>
-</div>
-  <a href="./insertar.php"><button>wawa</button></a>
     </main>
 
     <footer>

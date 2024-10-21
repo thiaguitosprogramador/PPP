@@ -24,9 +24,9 @@ else{
 }
 $edad > 60 && $genero = "m" ? print() : print();
 */
-$w = 2;
-$www = 3;
-$ww = "+";
+$w = readline("hola, ingrese numero 1 ");
+$www =  readline("hola, ingrese numero 2 ");
+$ww =  readline("hola, ingrese la operacion ");
 switch($ww){
 case "+" : print($w + $www);
 break;

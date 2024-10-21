@@ -1,7 +1,6 @@
 body {
     background-image: linear-gradient(to right top, #142237, #154e6d, #0080a0, #00b6c9, #08eee4);
     height: 100%;
-    margin: 0;
     background-size: cover;
     background-repeat: no-repeat;
     color: white;
@@ -12,20 +11,13 @@ body {
     color: white;
 }
 
-h1,
-h2,
-p,
-h3,
-h4 {
-    color: white;
-    text-align: center;
+main {
+    margin: 8%;
+    background-color: rgb(23, 68, 107);
+    color: black;
+    margin-top: 3%;
 }
 
-main {
-    margin: 10%;
-    background-color: aliceblue;
-    color: black;
-}
 
 #caja {
     display: grid;
