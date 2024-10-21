@@ -14,7 +14,7 @@
       <div class="container text-center" id="Nombreescuela">
         <div class="row align-items-start">
           <div class="col-sm-12">
-           <img src="" alt="">
+           <img src="./assets/img/Logo.png" alt="logoprincial" id="logoprincipal"></img>
           </div>
           <div class="col-sm-12">
             <h1>Escuela educacion <br> profesional n61</h1>
@@ -26,16 +26,19 @@
       </div>
     </header>
     <main>
-    	<div id="contenido">
         <div id="container">
-          <div class="col-sm">
-           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, itaque eligendi id deleniti omnis deserunt repudiandae placeat, labore non architecto, nam quam voluptate. Cum aspernatur quis corporis fuga accusamus veritatis.
-           </p>
-          </div>
-           <div class="col-sm">
-            <p>
- Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, numquam nam nulla tempore quia aspernatur dolores aliquid placeat, blanditiis dolorum voluptatum id incidunt, modi in vitae atque! Similique, dolor dolorum.</h4>
- </p>
+        <div class="container text-center">
+  <div class="row align-items-start" style="color:aliceblue;">
+    <div class="col-sm">
+      One of three columns
+    </div>
+    <div class="col-sm">
+      One of three columns
+    </div>
+    <div class="col-sm">
+      One of three columns
+    </div>
+  </div>
 </div>
            <div class="col-sm">
            <div style="color:aliceblue; text-align: center;">
@@ -45,10 +48,11 @@
   include 'BD/ejercicio.php';
 
 ?>
-          </div>
+        </div>
 
         </div>
       </div>
+</div>
   <a href="./insertar.php"><button>wawa</button></a>
     </main>
 
